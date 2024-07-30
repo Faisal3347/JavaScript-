@@ -17,7 +17,15 @@ let negativevalue=-value
 console.log(negativevalue);
 
 
+const c1="    faisal      khan"
+console.log(c1.trimStart());
+
+
 let a1="1"
 let a2="2"
 
 console.log(a1+a2);
+
+const url="https://faisal-portfolio.netlify.com"
+console.log(url.replace("-","_"))
+console.log(url.includes("khan"));
